@@ -1,14 +1,30 @@
 {
-  "name": "mvc-snippet-pack",
-  "displayName": "mvc-snippet-pack",
+  "name": "JayChehar",
+  "displayName": "jayChehar",
   "description": "Reusable ASP.NET MVC snippets (Controller, View, Repo, etc.)",
   "version": "0.0.1",
+
+  "publisher": "JayChehar",
+
   "engines": {
     "vscode": "^1.118.0"
   },
+
   "categories": [
     "Snippets"
   ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JayChehar/mvc-snippet-pack"
+  },
+
+  "homepage": "https://github.com/JayChehar/mvc-snippet-pack",
+
+  "bugs": {
+    "url": "https://github.com/JayChehar/mvc-snippet-pack/issues"
+  },
+
   "contributes": {
     "snippets": [
 
