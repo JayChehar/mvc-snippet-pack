@@ -1,0 +1,15 @@
+{
+  "Unauthorized View Snippet": {
+    "prefix": "unauthorizedview",
+    "body": [
+      "@{",
+      "    Layout = null;",
+      "}",
+      "<script>",
+      "    alert(\"Session Expired.Please Login Again\");",
+      "    window.location.href = \"../Home/Index\";",
+      "</script>"
+    ],
+    "description": "Unauthorized View Snippet"
+  }
+}
