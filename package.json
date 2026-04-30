@@ -1,0 +1,36 @@
+{
+  "name": "mvc-snippet-pack",
+  "displayName": "mvc-snippet-pack",
+  "description": "Reusable ASP.NET MVC snippets (Controller, View, Repo, etc.)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+
+      { "language": "html", "path": "./snippets/loginview-snippet.code-snippets" },
+      { "language": "html", "path": "./snippets/registerview-snippet.code-snippets" },
+      { "language": "html", "path": "./snippets/editprofileview-snippet.code-snippets" },
+      { "language": "html", "path": "./snippets/layout-snippet.code-snippets" },
+      { "language": "html", "path": "./snippets/userlayout-snippet.code-snippets" },
+      { "language": "html", "path": "./snippets/unauthorizedview-snippet.code-snippets" },
+
+      { "language": "csharp", "path": "./snippets/accountcontroller-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/admincontroller-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/homecontroller-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/usercontroller-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/accountrepo-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/userrepo-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/usermodel-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/loginmodel-snippet.code-snippets" },
+      { "language": "csharp", "path": "./snippets/filter-snippet.code-snippets" },
+
+      { "language": "plaintext", "path": "./snippets/allkendo-snippet.code-snippets" },
+      { "language": "plaintext", "path": "./snippets/sitecss-snippet.code-snippets" }
+    ]
+  }
+}
